@@ -38,6 +38,7 @@ while True:
    reply = input("Server: ")
     
    conn.send(reply.encode())
+
 #Server output:
 
 PS C:\Users\acer\OneDrive\Attachments>  & 'c:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\acer\.vscode\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\libs\debugpy\launcher' '57575' '--' 'C:\Users\acer\OneDrive\Attachments\3b server.py' 
